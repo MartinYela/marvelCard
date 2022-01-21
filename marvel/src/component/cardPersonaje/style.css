@@ -1,0 +1,9 @@
+.card {
+    background-color: black;
+    height: 350px;
+    width: 150px;
+    color: white;
+}
+.imagenCardPersonaje {
+    width: 100%;
+}

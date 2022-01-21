@@ -1,0 +1,8 @@
+.container_cardPersonaje {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
