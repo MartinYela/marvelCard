@@ -21,9 +21,9 @@ export default function Landing() {
         // http://gateway.marvel.com/v1/public/comics?ts=1&apikey=1234&hash=ffd275c5130566a2916217b101f26150
         let r = '';
         if (query===''){
-            r = await fetch('http://gateway.marvel.com/v1/public/characters?ts=1&apikey=' + apiKey2 + '&hash=45572a0b9cdff12f96f89070bfdbacb9');
+            r = await fetch('https://gateway.marvel.com/v1/public/characters?ts=1&apikey=' + apiKey2 + '&hash=45572a0b9cdff12f96f89070bfdbacb9');
         }else {
-            r = await fetch(`http://gateway.marvel.com/v1/public/characters?nameStartsWith=${query}&ts=1&apikey=${apiKey2}&hash=45572a0b9cdff12f96f89070bfdbacb9`);
+            r = await fetch(`https://gateway.marvel.com/v1/public/characters?nameStartsWith=${query}&ts=1&apikey=${apiKey2}&hash=45572a0b9cdff12f96f89070bfdbacb9`);
         }
         
         const d = await r.json();
