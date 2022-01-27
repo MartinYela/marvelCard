@@ -16,6 +16,7 @@ export default function Search({search}) {
                 className='form-control'
                 placeholder='Buscar personaje'
                 autoFocus
+                onKeyPress={(e) => e.which === 13?e.preventDefault():''}
                 onChange={(word) => onSearch(word.target.value)}
                 value={text} />
              </form>
