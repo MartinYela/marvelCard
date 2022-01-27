@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/marvelCard/static/css/main.9011af13.css",
-    "main.js": "/marvelCard/static/js/main.50b24583.js",
+    "main.js": "/marvelCard/static/js/main.a1c8c61b.js",
     "static/js/787.1aecab9c.chunk.js": "/marvelCard/static/js/787.1aecab9c.chunk.js",
     "static/media/LogoMarvelHeader.jpg": "/marvelCard/static/media/LogoMarvelHeader.15be1b93d181d984a17a.jpg",
     "index.html": "/marvelCard/index.html",
     "main.9011af13.css.map": "/marvelCard/static/css/main.9011af13.css.map",
-    "main.50b24583.js.map": "/marvelCard/static/js/main.50b24583.js.map",
+    "main.a1c8c61b.js.map": "/marvelCard/static/js/main.a1c8c61b.js.map",
     "787.1aecab9c.chunk.js.map": "/marvelCard/static/js/787.1aecab9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9011af13.css",
-    "static/js/main.50b24583.js"
+    "static/js/main.a1c8c61b.js"
   ]
 }
